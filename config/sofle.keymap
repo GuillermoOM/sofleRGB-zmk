@@ -79,11 +79,11 @@
 // |  CLCK | UNDO | CUT  | COPY  | PASTE | REDO |      |  |      |      |          |       |         |       | CLCK  |
 //                |      |       |       |      |      |  |      |      |          |       |         |
             bindings = <
-&trans     &trans       &trans       &trans       &trans       &trans                         &trans    &trans    &trans   &trans    &trans  &trans
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                         &kp PG_UP &kp HOME  &kp UP   &kp END   &trans  &trans
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                       &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &K_REDO        &trans  &trans  &trans    &trans    &trans   &trans    &trans  &trans
-                        &trans       &trans       &trans       &trans        &trans  &trans   &trans    &trans    &trans   &trans
+&trans     &trans       &trans       &trans       &trans       &trans                      &trans     &trans    &trans    &trans     &trans   &trans
+&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                      &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans   &trans
+&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &kp K_REDO  &trans  &trans  &trans     &trans    &trans    &trans     &trans   &trans
+                        &trans       &trans       &trans       &trans      &trans  &trans  &trans     &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
